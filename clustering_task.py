@@ -133,10 +133,10 @@ def main():
     df_top = df_sorted.iloc[:40]
 
     # Date
-    today = '250320'
+    today = '250321'
 
     # File to save results
-    output_file = f"v_measure_results_{today}.txt"
+    output_file = f"results/v_measure_results_{today}.txt"
 
     # List of chunk sizes to test
     chunk_sizes = [200, 300, 400]  # Modify as needed
