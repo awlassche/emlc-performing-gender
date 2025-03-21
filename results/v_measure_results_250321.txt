@@ -1,0 +1,16 @@
+Chunk Size	Model Name	V-Measure Score	Number of Rows
+200	emanjavacas/GysBERT-v2	0.7499	981
+200	DTAI-KULeuven/robbert-2023-dutch-large	0.7084	981
+200	GroNLP/bert-base-dutch-cased	0.7054	981
+200	xlm-roberta-large	0.6795	981
+200	intfloat/multilingual-e5-large	0.7493	981
+300	emanjavacas/GysBERT-v2	0.7810	647
+300	DTAI-KULeuven/robbert-2023-dutch-large	0.7452	647
+300	GroNLP/bert-base-dutch-cased	0.7824	647
+300	xlm-roberta-large	0.7292	647
+300	intfloat/multilingual-e5-large	0.8138	647
+400	emanjavacas/GysBERT-v2	0.7863	482
+400	DTAI-KULeuven/robbert-2023-dutch-large	0.7300	482
+400	GroNLP/bert-base-dutch-cased	0.7816	482
+400	xlm-roberta-large	0.7210	482
+400	intfloat/multilingual-e5-large	0.8081	482
