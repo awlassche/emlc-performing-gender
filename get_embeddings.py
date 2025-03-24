@@ -24,14 +24,16 @@ def process_dataset(df, chunk_size):
     :param chunk_size: The chunk size to apply.
     :return: A filtered DataFrame with chunked speech.
     """
+    # Group speeches per speaker/play/gender
+    grouped = df.groupby(['speaker', 'gender', 'play'])['speech'].agg(' '.join).reset_index()
+
     chunked_data = []
-    
-    for _, row in tqdm(df.iterrows(), total=len(df), desc="Chunking speeches"):
+    for _, row in tqdm(grouped.iterrows(), total=len(grouped), desc="Chunking grouped speeches"):
         chunks = chunk_speech(row['speech'], chunk_size)
         speaker_id_base = row['speaker'][:4]
 
         for i, chunk in enumerate(chunks):
-            if len(chunk.split()) > 5:  # Filter very short chunks
+            if len(chunk.split()) > 5:  # Optional: filter out very short chunks
                 chunked_data.append({
                     'speaker': row['speaker'],
                     'play': row['play'],
