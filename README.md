@@ -37,9 +37,11 @@ Please cite our [article](link-coming-soon) if you use the code or the embedding
 │
 ├── notebooks/                 <- Jupyter notebooks.
 │      │
-│      └── train_classifiers.ipynb          			<- Jupyter notebook for training classifiers with TF-IDF and embeddings as features.
+│      └── train_classifiers.ipynb          			      <- Jupyter notebook for training classifiers with TF-IDF and embeddings as features.
 │      │
 │      └── character_analysis_drama_corpus_TEI.ipynb    <- Jupyter notebook for extracting data from a TEI-encoded corpus of plays and compute descriptive statistics.
 │
-└──  results/                   <- Results from machine learning experiments.
+├── figs/                      <- Figures from the article. 
+│
+└──  results/                  <- Results from machine learning experiments.
 ```
