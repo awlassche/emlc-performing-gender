@@ -4,7 +4,7 @@
 
 This repository contains code for embeddings, analysis, plots and results of our article: 
 
-Lucas van der Deijl & Alie Lassche (2025), "Performing Gender Through Dialogue. A Computational Approach to Male and Female Speech in Dutch Drama (1600-1800)" in _Early Modern Low Countries_ 9 (2), 321-348."
+Lucas van der Deijl & Alie Lassche (2025), "Performing Gender Through Dialogue. A Computational Approach to Male and Female Speech in Dutch Drama (1600-1800)" in _Early Modern Low Countries_ 9 (2), 321-348.
 
 ## Useful directions 📌
 
@@ -19,7 +19,7 @@ Some useful directions:
 Please cite our [article](https://emlc-journal.org/article/view/19653) if you use the code or the embeddings:
 
 ```
-@article{deijl_performing_2025-1,
+@article{deijl_performing_2025,
   title = {Performing {{Gender Through Dialogue}}: {{A Computational Approach}} to {{Male}} and {{Female Speech}} in {{Dutch Drama}} (1600-1800)},
   shorttitle = {Performing {{Gender Through Dialogue}}},
   author = {van der Deijl, Lucas and Lassche, Alie},
